@@ -1,4 +1,13 @@
+# intelij
 .idea/
-memory
 spring-data-rest.iml
+
+# Maven
 target/
+
+# Gradle
+.gradle
+/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
