@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDataRestApplication {
+public class SpringBootSqliteApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDataRestApplication.class, args);
+        SpringApplication.run(SpringBootSqliteApplication.class, args);
     }
 
 }
