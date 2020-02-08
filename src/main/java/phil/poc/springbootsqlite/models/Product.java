@@ -19,10 +19,10 @@ public class Product {
 
     private int rrp;
 
-    @Column(nullable = false)
+    @Column(name="wanted_price", nullable = false)
     private int wantedPrice;
 
-    @Column(nullable = false)
+    @Column(name="min_price", nullable = false)
     private int minPrice;
 
 
